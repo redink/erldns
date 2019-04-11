@@ -131,13 +131,7 @@ handle_message(Message, Host) ->
 %% If erldns is configured to use root hints then those will be added to the response.
 -spec(handle_packet_cache_miss(Message :: dns:message(), AuthorityRecords :: dns:authority(), Host :: dns:ip()) -> dns:message()).
 handle_packet_cache_miss(Message, [], _Host) ->
-  case erldns_config:use_root_hints() of
-    true ->
-      {Authority, Additional} = erldns_records:root_hints(),
-      Message#dns_message{aa = false, rc = ?DNS_RCODE_REFUSED, authority = Authority, additional = Additional};
-    _ ->
-      Message#dns_message{aa = false, rc = ?DNS_RCODE_REFUSED}
-  end;
+  Message#dns_message{aa = false, rc = ?DNS_RCODE_REFUSED};
 
 %% The packet is not in the cache yet we are authoritative, so try to resolve
 %% the request. This is the point the request moves on to the erldns_resolver

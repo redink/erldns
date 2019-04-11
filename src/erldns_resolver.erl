@@ -65,13 +65,7 @@ sort_answers(Message) ->
 %% No SOA was found for the Qname so we return the root hints
 %% Note: it seems odd that we are indicating we are authoritative here.
 resolve(Message, _Qname, _Qtype, {error, not_authoritative}, _Host, _CnameChain) ->
-  case erldns_config:use_root_hints() of
-    true ->
-      {Authority, Additional} = erldns_records:root_hints(),
-      Message#dns_message{aa = true, rc = ?DNS_RCODE_NOERROR, authority = Authority, additional = Message#dns_message.additional ++ Additional};
-    _ ->
-      Message#dns_message{aa = true, rc = ?DNS_RCODE_NOERROR}
-  end;
+  Message#dns_message{aa = true, rc = ?DNS_RCODE_NOERROR};
 
 %% An SOA was found, thus we are authoritative and have the zone.
 %% Step 3: Match records
@@ -328,17 +322,7 @@ resolve_best_match(Message, Qname, _Qtype, _Host, _CnameChain, _BestMatchRecords
     true ->
       Message#dns_message{rc = ?DNS_RCODE_NXDOMAIN, authority = Zone#zone.authority, aa = true};
     false ->
-      % This happens when we have a CNAME to an out-of-balliwick hostname and the query is for
-      % something other than CNAME. Note that the response is still NOERROR here.
-      %
-      % In the dnstest suite, this is hit by cname_to_unauth_any (and others)
-      case erldns_config:use_root_hints() of
-        true ->
-          {Authority, Additional} = erldns_records:root_hints(),
-          Message#dns_message{authority = Authority, additional = Message#dns_message.additional ++ Additional};
-        _ ->
-          Message
-      end
+      Message
   end.
 
 
@@ -412,7 +396,7 @@ resolve_best_match_referral(Message, _Qname, _Qtype, _Host, _CnameChain, _BestMa
 resolve_best_match_referral(Message, _Qname, _Qtype, _Host, [], _BestMatchRecords, _Zone, _ReferralRecords, Authority) ->
   Message#dns_message{aa = true, rc = ?DNS_RCODE_NXDOMAIN, authority = Authority};
 
-% We are authoritative and the Qtype is ANY so we just return the 
+% We are authoritative and the Qtype is ANY so we just return the
 % original message.
 resolve_best_match_referral(Message, _Qname, ?DNS_TYPE_ANY, _Host, _CnameChain, _BestMatchRecords, _Zone, _ReferralRecords, _Authority) ->
   Message;

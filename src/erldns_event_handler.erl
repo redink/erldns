@@ -44,29 +44,6 @@ handle_event(start_servers, State) ->
       {ok, State}
   end;
 
-handle_event({end_udp, [{host, _Host}]}, State) ->
-  {ok, State};
-
-handle_event({end_tcp, [{host, _Host}]}, State) ->
-  {ok, State};
-
-handle_event({udp_error, Reason}, State) ->
-  {ok, State};
-
-handle_event({tcp_error, Reason}, State) ->
-  {ok, State};
-
-handle_event({refused_response, Questions}, State) ->
-  lager:debug("Refused response: ~p", [Questions]),
-  {ok, State};
-
-handle_event({empty_response, Message}, State) ->
-  lager:info("Empty response: ~p", [Message]),
-  {ok, State};
-
-handle_event({dnssec_request, _Host, _Qname}, State) ->
-  {ok, State};
-
 handle_event(_Event, State) ->
   {ok, State}.
 

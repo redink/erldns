@@ -22,9 +22,6 @@
          get_num_workers/0
         ]).
 -export([
-         use_root_hints/0
-        ]).
--export([
          packet_cache_enabled/0,
          packet_cache_default_ttl/0,
          packet_cache_sweep_interval/0,
@@ -153,13 +150,6 @@ get_num_workers() ->
   case application:get_env(erldns, num_workers) of
     {ok, NumWorkers} -> NumWorkers;
     _ -> ?DEFAULT_NUM_WORKERS
-  end.
-
--spec use_root_hints() -> boolean().
-use_root_hints() ->
-  case application:get_env(erldns, use_root_hints) of
-    {ok, Flag} -> Flag;
-    _ -> true
   end.
 
 packet_cache() ->
