@@ -133,7 +133,7 @@
                 "type": "A",
                 "ttl": 120,
                 "data": {
-                  "ip": "1.2.3.4"
+                    "ip": "1.2.3.4"
                 }
             },
             {
@@ -141,7 +141,7 @@
                 "type": "NS",
                 "ttl": 120,
                 "data": {
-                  "dname": "rns.example.com"
+                    "dname": "rns.example.com"
                 }
             },
             {
@@ -583,639 +583,636 @@
                     "preference": 25
                 }
             },
-            
-            
-            
-  {
-  "name": "toomuchinfo-a.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.1"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.2"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.3"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.4"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.5"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.6"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.7"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.8"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.9"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.10"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.11"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.12"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.13"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.14"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.15"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.16"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.17"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.18"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.19"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.20"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.21"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.22"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.23"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.24"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.25"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.26"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.27"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.28"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.29"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.30"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.31"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.32"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.33"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.34"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.35"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.36"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.37"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.38"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.39"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.40"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.41"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.42"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.43"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.44"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.45"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.46"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.47"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.48"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.49"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.50"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.51"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.52"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.53"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.54"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.55"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.56"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.57"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.58"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.59"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.60"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.61"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.62"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.63"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.64"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.65"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.66"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.67"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.68"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.69"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.70"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.71"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.72"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.73"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.74"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.75"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.76"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.77"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.78"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.79"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.80"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.81"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.82"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.83"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.84"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.85"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.86"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.87"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.88"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.89"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.90"}
-  },
 
+            {
+                "name": "toomuchinfo-a.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.1" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.2" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.3" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.4" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.5" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.6" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.7" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.8" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.9" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.10" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.11" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.12" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.13" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.14" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.15" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.16" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.17" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.18" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.19" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.20" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.21" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.22" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.23" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.24" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.25" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.26" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.27" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.28" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.29" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.30" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.31" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.32" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.33" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.34" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.35" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.36" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.37" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.38" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.39" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.40" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.41" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.42" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.43" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.44" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.45" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.46" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.47" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.48" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.49" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.50" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.51" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.52" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.53" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.54" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.55" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.56" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.57" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.58" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.59" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.60" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.61" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.62" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.63" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.64" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.65" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.66" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.67" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.68" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.69" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.70" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.71" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.72" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.73" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.74" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.75" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.76" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.77" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.78" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.79" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.80" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.81" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.82" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.83" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.84" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.85" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.86" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.87" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.88" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.89" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.90" }
+            },
 
             {
                 "comment": "Insert all of the hosts here"
@@ -1284,7 +1281,18 @@
                 }
             }
         ],
-        "keys":[{"ksk":"-----BEGIN RSA PRIVATE KEY-----\nMIICXAIBAAKBgQCn9Iv82vkFiv8ts8K9jzUzfp3UEZx+76r+X9A4GOFfYbx3USCh\nEW0fLYT/QkAM8/SiTkEXzZPqhrV083mp5VLYNLxic2ii6DrwvyGpENVPJnDQMu+C\nfKMyb9IWcm9MkeHh8t/ovsCQAEJWIPTnzv8rlQcDU44c3qgTpHSU8htjdwICBAEC\ngYEAlpYTHWYrcd0HQXO3F9lPqwwfHUt7VBaSEUYrk3N3ZYCWvmV1qyKbB/kb1SBs\n4GfW1vP966HXCffnX92LDXYxi7It3TJaKmo8aF/leN7w8WLNJXUayEoQKUfKLprj\nN14Jx/tgMu7I/BOoHId8b7e57pBKtDiSF6WWn3K7tNPbfmkCQQDST41m62mC4MAa\nDsUdyM0Vg/tjduGqnygryCDEXDabdg95a3wMk0SQCQzZFHGNYnsXcffTqGs/y+5w\nQWxyOGSNAkEAzHFkDJla30NiiKvhu7dY+0+dGrfMA7pNUh+LGdXe5QFdjwwxqPbF\n7NMGXKMdB8agSCxGZC3bxdvYNF9LULzhEwJABpDYNSoQx+UMvaEN5XTpLmCHuS1r\nsmhfKZPcDx8Z7mAYda3wZEuHQq+cf6i5XhOO9P5QKpKeslHLAMHa7NaNgQJBAI03\nGGacYLwui32fbzb8BYRg82Kga/OW6btY+O6hNs6iSR2gBlQ9j3Tgrzo+N4R/NQSl\nc05wGO2RnBUwlu0XUckCQHfHsWHVrrADTpalbv+FTDyWd0ouHXBmDecVZh3e7/ue\ncdMoblzeasvgp8CjFa9U+uDozY+aL6TNIpG++nn4lNw=\n-----END RSA PRIVATE KEY-----\n","ksk_keytag":37440,"ksk_alg":8,"zsk":"-----BEGIN RSA PRIVATE KEY-----\nMIIBOgIBAAJBAK8YnU+YqBxD/EDwVeHZsJillAJ80PCnLU+/rlGrlzgw+eabF8jT\nCaEwnpE74YHCLegKAAn+efeZrT/EBBrzlacCAgIBAkBh9VGFW2SJk1I9SBQaDIA9\nchdrrx+PHibSyozwT4eAPmd6OFoLausc7ls6v9evPeb+Yj3g0JXvTGp6BgNhFqLR\nAiEA1+ievAEBVM6IlOmpiTwlaWe/HV6MokBBq1G/tvJS0M8CIQDPm/DUsoTEv/Jj\n6O3U9hNcPLbvKMMGld2wbf7nrQmzqQIhAJrhwTaFdjnXhmfUB9a33vRIbSaIsLxA\nDyuM+03XP+YhAiEAmJIJz7WX9uPkCIy8wO655Hh4dt4UkBFRE98OqkHIwGkCIFFv\nN8rJojI+oEiJyNjEjWZD4qoUMUp3+YBl0htAJUE2\n-----END RSA PRIVATE KEY-----\n","zsk_keytag":49016,"zsk_alg":8,"inception":"2016-11-14T11:36:58.851612Z","until":"2017-02-12T11:36:58.849384Z"}]
+        "keys": [
+            {
+                "ksk": "-----BEGIN RSA PRIVATE KEY-----\nMIICXAIBAAKBgQCn9Iv82vkFiv8ts8K9jzUzfp3UEZx+76r+X9A4GOFfYbx3USCh\nEW0fLYT/QkAM8/SiTkEXzZPqhrV083mp5VLYNLxic2ii6DrwvyGpENVPJnDQMu+C\nfKMyb9IWcm9MkeHh8t/ovsCQAEJWIPTnzv8rlQcDU44c3qgTpHSU8htjdwICBAEC\ngYEAlpYTHWYrcd0HQXO3F9lPqwwfHUt7VBaSEUYrk3N3ZYCWvmV1qyKbB/kb1SBs\n4GfW1vP966HXCffnX92LDXYxi7It3TJaKmo8aF/leN7w8WLNJXUayEoQKUfKLprj\nN14Jx/tgMu7I/BOoHId8b7e57pBKtDiSF6WWn3K7tNPbfmkCQQDST41m62mC4MAa\nDsUdyM0Vg/tjduGqnygryCDEXDabdg95a3wMk0SQCQzZFHGNYnsXcffTqGs/y+5w\nQWxyOGSNAkEAzHFkDJla30NiiKvhu7dY+0+dGrfMA7pNUh+LGdXe5QFdjwwxqPbF\n7NMGXKMdB8agSCxGZC3bxdvYNF9LULzhEwJABpDYNSoQx+UMvaEN5XTpLmCHuS1r\nsmhfKZPcDx8Z7mAYda3wZEuHQq+cf6i5XhOO9P5QKpKeslHLAMHa7NaNgQJBAI03\nGGacYLwui32fbzb8BYRg82Kga/OW6btY+O6hNs6iSR2gBlQ9j3Tgrzo+N4R/NQSl\nc05wGO2RnBUwlu0XUckCQHfHsWHVrrADTpalbv+FTDyWd0ouHXBmDecVZh3e7/ue\ncdMoblzeasvgp8CjFa9U+uDozY+aL6TNIpG++nn4lNw=\n-----END RSA PRIVATE KEY-----\n",
+                "ksk_keytag": 37440,
+                "ksk_alg": 8,
+                "zsk": "-----BEGIN RSA PRIVATE KEY-----\nMIIBOgIBAAJBAK8YnU+YqBxD/EDwVeHZsJillAJ80PCnLU+/rlGrlzgw+eabF8jT\nCaEwnpE74YHCLegKAAn+efeZrT/EBBrzlacCAgIBAkBh9VGFW2SJk1I9SBQaDIA9\nchdrrx+PHibSyozwT4eAPmd6OFoLausc7ls6v9evPeb+Yj3g0JXvTGp6BgNhFqLR\nAiEA1+ievAEBVM6IlOmpiTwlaWe/HV6MokBBq1G/tvJS0M8CIQDPm/DUsoTEv/Jj\n6O3U9hNcPLbvKMMGld2wbf7nrQmzqQIhAJrhwTaFdjnXhmfUB9a33vRIbSaIsLxA\nDyuM+03XP+YhAiEAmJIJz7WX9uPkCIy8wO655Hh4dt4UkBFRE98OqkHIwGkCIFFv\nN8rJojI+oEiJyNjEjWZD4qoUMUp3+YBl0htAJUE2\n-----END RSA PRIVATE KEY-----\n",
+                "zsk_keytag": 49016,
+                "zsk_alg": 8,
+                "inception": "2016-11-14T11:36:58.851612Z",
+                "until": "2017-02-12T11:36:58.849384Z"
+            }
+        ]
     },
 
     {
@@ -1400,7 +1408,7 @@
                 "type": "A",
                 "ttl": 120,
                 "data": {
-                  "ip": "1.2.3.4"
+                    "ip": "1.2.3.4"
                 }
             },
             {
@@ -1408,7 +1416,7 @@
                 "type": "NS",
                 "ttl": 120,
                 "data": {
-                  "dname": "rns.example-dnssec.com"
+                    "dname": "rns.example-dnssec.com"
                 }
             },
             {
@@ -1850,639 +1858,636 @@
                     "preference": 25
                 }
             },
-            
-            
-            
-  {
-  "name": "toomuchinfo-a.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.1"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.2"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.3"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.4"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.5"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.6"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.7"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.8"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.9"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.10"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.11"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.12"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.13"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.14"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.15"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.16"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.17"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.18"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.19"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.20"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.21"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.22"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.23"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.24"}
-  },
-
-  {
-  "name": "toomuchinfo-a.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.25"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.26"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.27"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.28"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.29"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.30"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.31"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.32"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.33"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.34"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.35"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.36"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.37"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.38"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.39"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.40"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.41"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.42"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.43"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.44"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.45"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.46"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.47"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.48"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.49"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.50"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.51"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.52"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.53"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.54"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.55"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.56"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.57"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.58"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.59"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.60"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.61"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.62"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.63"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.64"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.65"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.66"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.67"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.68"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.69"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.70"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.71"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.72"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.73"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.74"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.75"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.76"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.77"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.78"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.79"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.80"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.81"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.82"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.83"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.84"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.85"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.86"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.87"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.88"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.89"}
-  },
-
-  {
-  "name": "toomuchinfo-b.example-dnssec.com",
-  "type": "A",
-  "ttl": 120,
-  "data": {"ip": "192.168.99.90"}
-  },
 
+            {
+                "name": "toomuchinfo-a.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.1" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.2" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.3" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.4" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.5" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.6" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.7" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.8" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.9" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.10" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.11" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.12" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.13" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.14" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.15" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.16" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.17" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.18" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.19" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.20" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.21" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.22" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.23" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.24" }
+            },
+
+            {
+                "name": "toomuchinfo-a.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.25" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.26" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.27" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.28" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.29" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.30" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.31" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.32" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.33" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.34" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.35" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.36" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.37" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.38" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.39" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.40" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.41" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.42" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.43" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.44" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.45" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.46" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.47" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.48" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.49" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.50" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.51" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.52" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.53" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.54" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.55" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.56" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.57" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.58" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.59" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.60" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.61" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.62" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.63" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.64" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.65" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.66" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.67" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.68" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.69" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.70" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.71" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.72" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.73" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.74" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.75" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.76" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.77" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.78" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.79" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.80" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.81" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.82" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.83" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.84" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.85" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.86" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.87" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.88" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.89" }
+            },
+
+            {
+                "name": "toomuchinfo-b.example-dnssec.com",
+                "type": "A",
+                "ttl": 120,
+                "data": { "ip": "192.168.99.90" }
+            },
 
             {
                 "comment": "Insert all of the hosts here"
@@ -2496,8 +2501,19 @@
                 }
             }
         ],
-        "keys":[{"ksk":"-----BEGIN RSA PRIVATE KEY-----\nMIICXAIBAAKBgQCn9Iv82vkFiv8ts8K9jzUzfp3UEZx+76r+X9A4GOFfYbx3USCh\nEW0fLYT/QkAM8/SiTkEXzZPqhrV083mp5VLYNLxic2ii6DrwvyGpENVPJnDQMu+C\nfKMyb9IWcm9MkeHh8t/ovsCQAEJWIPTnzv8rlQcDU44c3qgTpHSU8htjdwICBAEC\ngYEAlpYTHWYrcd0HQXO3F9lPqwwfHUt7VBaSEUYrk3N3ZYCWvmV1qyKbB/kb1SBs\n4GfW1vP966HXCffnX92LDXYxi7It3TJaKmo8aF/leN7w8WLNJXUayEoQKUfKLprj\nN14Jx/tgMu7I/BOoHId8b7e57pBKtDiSF6WWn3K7tNPbfmkCQQDST41m62mC4MAa\nDsUdyM0Vg/tjduGqnygryCDEXDabdg95a3wMk0SQCQzZFHGNYnsXcffTqGs/y+5w\nQWxyOGSNAkEAzHFkDJla30NiiKvhu7dY+0+dGrfMA7pNUh+LGdXe5QFdjwwxqPbF\n7NMGXKMdB8agSCxGZC3bxdvYNF9LULzhEwJABpDYNSoQx+UMvaEN5XTpLmCHuS1r\nsmhfKZPcDx8Z7mAYda3wZEuHQq+cf6i5XhOO9P5QKpKeslHLAMHa7NaNgQJBAI03\nGGacYLwui32fbzb8BYRg82Kga/OW6btY+O6hNs6iSR2gBlQ9j3Tgrzo+N4R/NQSl\nc05wGO2RnBUwlu0XUckCQHfHsWHVrrADTpalbv+FTDyWd0ouHXBmDecVZh3e7/ue\ncdMoblzeasvgp8CjFa9U+uDozY+aL6TNIpG++nn4lNw=\n-----END RSA PRIVATE KEY-----\n","ksk_keytag":37440,"ksk_alg":8,"zsk":"-----BEGIN RSA PRIVATE KEY-----\nMIIBOgIBAAJBAK8YnU+YqBxD/EDwVeHZsJillAJ80PCnLU+/rlGrlzgw+eabF8jT\nCaEwnpE74YHCLegKAAn+efeZrT/EBBrzlacCAgIBAkBh9VGFW2SJk1I9SBQaDIA9\nchdrrx+PHibSyozwT4eAPmd6OFoLausc7ls6v9evPeb+Yj3g0JXvTGp6BgNhFqLR\nAiEA1+ievAEBVM6IlOmpiTwlaWe/HV6MokBBq1G/tvJS0M8CIQDPm/DUsoTEv/Jj\n6O3U9hNcPLbvKMMGld2wbf7nrQmzqQIhAJrhwTaFdjnXhmfUB9a33vRIbSaIsLxA\nDyuM+03XP+YhAiEAmJIJz7WX9uPkCIy8wO655Hh4dt4UkBFRE98OqkHIwGkCIFFv\nN8rJojI+oEiJyNjEjWZD4qoUMUp3+YBl0htAJUE2\n-----END RSA PRIVATE KEY-----\n","zsk_keytag":49016,"zsk_alg":8,"inception":"2016-11-14T11:36:58.851612Z","until":"2017-02-12T11:36:58.849384Z"}]
-    },    
+        "keys": [
+            {
+                "ksk": "-----BEGIN RSA PRIVATE KEY-----\nMIICXAIBAAKBgQCn9Iv82vkFiv8ts8K9jzUzfp3UEZx+76r+X9A4GOFfYbx3USCh\nEW0fLYT/QkAM8/SiTkEXzZPqhrV083mp5VLYNLxic2ii6DrwvyGpENVPJnDQMu+C\nfKMyb9IWcm9MkeHh8t/ovsCQAEJWIPTnzv8rlQcDU44c3qgTpHSU8htjdwICBAEC\ngYEAlpYTHWYrcd0HQXO3F9lPqwwfHUt7VBaSEUYrk3N3ZYCWvmV1qyKbB/kb1SBs\n4GfW1vP966HXCffnX92LDXYxi7It3TJaKmo8aF/leN7w8WLNJXUayEoQKUfKLprj\nN14Jx/tgMu7I/BOoHId8b7e57pBKtDiSF6WWn3K7tNPbfmkCQQDST41m62mC4MAa\nDsUdyM0Vg/tjduGqnygryCDEXDabdg95a3wMk0SQCQzZFHGNYnsXcffTqGs/y+5w\nQWxyOGSNAkEAzHFkDJla30NiiKvhu7dY+0+dGrfMA7pNUh+LGdXe5QFdjwwxqPbF\n7NMGXKMdB8agSCxGZC3bxdvYNF9LULzhEwJABpDYNSoQx+UMvaEN5XTpLmCHuS1r\nsmhfKZPcDx8Z7mAYda3wZEuHQq+cf6i5XhOO9P5QKpKeslHLAMHa7NaNgQJBAI03\nGGacYLwui32fbzb8BYRg82Kga/OW6btY+O6hNs6iSR2gBlQ9j3Tgrzo+N4R/NQSl\nc05wGO2RnBUwlu0XUckCQHfHsWHVrrADTpalbv+FTDyWd0ouHXBmDecVZh3e7/ue\ncdMoblzeasvgp8CjFa9U+uDozY+aL6TNIpG++nn4lNw=\n-----END RSA PRIVATE KEY-----\n",
+                "ksk_keytag": 37440,
+                "ksk_alg": 8,
+                "zsk": "-----BEGIN RSA PRIVATE KEY-----\nMIIBOgIBAAJBAK8YnU+YqBxD/EDwVeHZsJillAJ80PCnLU+/rlGrlzgw+eabF8jT\nCaEwnpE74YHCLegKAAn+efeZrT/EBBrzlacCAgIBAkBh9VGFW2SJk1I9SBQaDIA9\nchdrrx+PHibSyozwT4eAPmd6OFoLausc7ls6v9evPeb+Yj3g0JXvTGp6BgNhFqLR\nAiEA1+ievAEBVM6IlOmpiTwlaWe/HV6MokBBq1G/tvJS0M8CIQDPm/DUsoTEv/Jj\n6O3U9hNcPLbvKMMGld2wbf7nrQmzqQIhAJrhwTaFdjnXhmfUB9a33vRIbSaIsLxA\nDyuM+03XP+YhAiEAmJIJz7WX9uPkCIy8wO655Hh4dt4UkBFRE98OqkHIwGkCIFFv\nN8rJojI+oEiJyNjEjWZD4qoUMUp3+YBl0htAJUE2\n-----END RSA PRIVATE KEY-----\n",
+                "zsk_keytag": 49016,
+                "zsk_alg": 8,
+                "inception": "2016-11-14T11:36:58.851612Z",
+                "until": "2017-02-12T11:36:58.849384Z"
+            }
+        ]
+    },
 
     {
         "name": "test.com",
@@ -3025,8 +3041,19 @@
                 }
             }
         ],
-        "keys":[{"ksk":"-----BEGIN RSA PRIVATE KEY-----\nMIICXAIBAAKBgQCn9Iv82vkFiv8ts8K9jzUzfp3UEZx+76r+X9A4GOFfYbx3USCh\nEW0fLYT/QkAM8/SiTkEXzZPqhrV083mp5VLYNLxic2ii6DrwvyGpENVPJnDQMu+C\nfKMyb9IWcm9MkeHh8t/ovsCQAEJWIPTnzv8rlQcDU44c3qgTpHSU8htjdwICBAEC\ngYEAlpYTHWYrcd0HQXO3F9lPqwwfHUt7VBaSEUYrk3N3ZYCWvmV1qyKbB/kb1SBs\n4GfW1vP966HXCffnX92LDXYxi7It3TJaKmo8aF/leN7w8WLNJXUayEoQKUfKLprj\nN14Jx/tgMu7I/BOoHId8b7e57pBKtDiSF6WWn3K7tNPbfmkCQQDST41m62mC4MAa\nDsUdyM0Vg/tjduGqnygryCDEXDabdg95a3wMk0SQCQzZFHGNYnsXcffTqGs/y+5w\nQWxyOGSNAkEAzHFkDJla30NiiKvhu7dY+0+dGrfMA7pNUh+LGdXe5QFdjwwxqPbF\n7NMGXKMdB8agSCxGZC3bxdvYNF9LULzhEwJABpDYNSoQx+UMvaEN5XTpLmCHuS1r\nsmhfKZPcDx8Z7mAYda3wZEuHQq+cf6i5XhOO9P5QKpKeslHLAMHa7NaNgQJBAI03\nGGacYLwui32fbzb8BYRg82Kga/OW6btY+O6hNs6iSR2gBlQ9j3Tgrzo+N4R/NQSl\nc05wGO2RnBUwlu0XUckCQHfHsWHVrrADTpalbv+FTDyWd0ouHXBmDecVZh3e7/ue\ncdMoblzeasvgp8CjFa9U+uDozY+aL6TNIpG++nn4lNw=\n-----END RSA PRIVATE KEY-----\n","ksk_keytag":37440,"ksk_alg":8,"zsk":"-----BEGIN RSA PRIVATE KEY-----\nMIIBOgIBAAJBAK8YnU+YqBxD/EDwVeHZsJillAJ80PCnLU+/rlGrlzgw+eabF8jT\nCaEwnpE74YHCLegKAAn+efeZrT/EBBrzlacCAgIBAkBh9VGFW2SJk1I9SBQaDIA9\nchdrrx+PHibSyozwT4eAPmd6OFoLausc7ls6v9evPeb+Yj3g0JXvTGp6BgNhFqLR\nAiEA1+ievAEBVM6IlOmpiTwlaWe/HV6MokBBq1G/tvJS0M8CIQDPm/DUsoTEv/Jj\n6O3U9hNcPLbvKMMGld2wbf7nrQmzqQIhAJrhwTaFdjnXhmfUB9a33vRIbSaIsLxA\nDyuM+03XP+YhAiEAmJIJz7WX9uPkCIy8wO655Hh4dt4UkBFRE98OqkHIwGkCIFFv\nN8rJojI+oEiJyNjEjWZD4qoUMUp3+YBl0htAJUE2\n-----END RSA PRIVATE KEY-----\n","zsk_keytag":49016,"zsk_alg":8,"inception":"2016-11-14T11:36:58.851612Z","until":"2017-02-12T11:36:58.849384Z"}]
-    },    
+        "keys": [
+            {
+                "ksk": "-----BEGIN RSA PRIVATE KEY-----\nMIICXAIBAAKBgQCn9Iv82vkFiv8ts8K9jzUzfp3UEZx+76r+X9A4GOFfYbx3USCh\nEW0fLYT/QkAM8/SiTkEXzZPqhrV083mp5VLYNLxic2ii6DrwvyGpENVPJnDQMu+C\nfKMyb9IWcm9MkeHh8t/ovsCQAEJWIPTnzv8rlQcDU44c3qgTpHSU8htjdwICBAEC\ngYEAlpYTHWYrcd0HQXO3F9lPqwwfHUt7VBaSEUYrk3N3ZYCWvmV1qyKbB/kb1SBs\n4GfW1vP966HXCffnX92LDXYxi7It3TJaKmo8aF/leN7w8WLNJXUayEoQKUfKLprj\nN14Jx/tgMu7I/BOoHId8b7e57pBKtDiSF6WWn3K7tNPbfmkCQQDST41m62mC4MAa\nDsUdyM0Vg/tjduGqnygryCDEXDabdg95a3wMk0SQCQzZFHGNYnsXcffTqGs/y+5w\nQWxyOGSNAkEAzHFkDJla30NiiKvhu7dY+0+dGrfMA7pNUh+LGdXe5QFdjwwxqPbF\n7NMGXKMdB8agSCxGZC3bxdvYNF9LULzhEwJABpDYNSoQx+UMvaEN5XTpLmCHuS1r\nsmhfKZPcDx8Z7mAYda3wZEuHQq+cf6i5XhOO9P5QKpKeslHLAMHa7NaNgQJBAI03\nGGacYLwui32fbzb8BYRg82Kga/OW6btY+O6hNs6iSR2gBlQ9j3Tgrzo+N4R/NQSl\nc05wGO2RnBUwlu0XUckCQHfHsWHVrrADTpalbv+FTDyWd0ouHXBmDecVZh3e7/ue\ncdMoblzeasvgp8CjFa9U+uDozY+aL6TNIpG++nn4lNw=\n-----END RSA PRIVATE KEY-----\n",
+                "ksk_keytag": 37440,
+                "ksk_alg": 8,
+                "zsk": "-----BEGIN RSA PRIVATE KEY-----\nMIIBOgIBAAJBAK8YnU+YqBxD/EDwVeHZsJillAJ80PCnLU+/rlGrlzgw+eabF8jT\nCaEwnpE74YHCLegKAAn+efeZrT/EBBrzlacCAgIBAkBh9VGFW2SJk1I9SBQaDIA9\nchdrrx+PHibSyozwT4eAPmd6OFoLausc7ls6v9evPeb+Yj3g0JXvTGp6BgNhFqLR\nAiEA1+ievAEBVM6IlOmpiTwlaWe/HV6MokBBq1G/tvJS0M8CIQDPm/DUsoTEv/Jj\n6O3U9hNcPLbvKMMGld2wbf7nrQmzqQIhAJrhwTaFdjnXhmfUB9a33vRIbSaIsLxA\nDyuM+03XP+YhAiEAmJIJz7WX9uPkCIy8wO655Hh4dt4UkBFRE98OqkHIwGkCIFFv\nN8rJojI+oEiJyNjEjWZD4qoUMUp3+YBl0htAJUE2\n-----END RSA PRIVATE KEY-----\n",
+                "zsk_keytag": 49016,
+                "zsk_alg": 8,
+                "inception": "2016-11-14T11:36:58.851612Z",
+                "until": "2017-02-12T11:36:58.849384Z"
+            }
+        ]
+    },
 
     {
         "name": "wtest.com",
@@ -3216,7 +3243,7 @@
                     "dname": "proxy.cover.wtest.com"
                 }
             }
-        ],
+        ]
     },
 
     {
@@ -3408,8 +3435,19 @@
                 }
             }
         ],
-        "keys":[{"ksk":"-----BEGIN RSA PRIVATE KEY-----\nMIICXAIBAAKBgQCn9Iv82vkFiv8ts8K9jzUzfp3UEZx+76r+X9A4GOFfYbx3USCh\nEW0fLYT/QkAM8/SiTkEXzZPqhrV083mp5VLYNLxic2ii6DrwvyGpENVPJnDQMu+C\nfKMyb9IWcm9MkeHh8t/ovsCQAEJWIPTnzv8rlQcDU44c3qgTpHSU8htjdwICBAEC\ngYEAlpYTHWYrcd0HQXO3F9lPqwwfHUt7VBaSEUYrk3N3ZYCWvmV1qyKbB/kb1SBs\n4GfW1vP966HXCffnX92LDXYxi7It3TJaKmo8aF/leN7w8WLNJXUayEoQKUfKLprj\nN14Jx/tgMu7I/BOoHId8b7e57pBKtDiSF6WWn3K7tNPbfmkCQQDST41m62mC4MAa\nDsUdyM0Vg/tjduGqnygryCDEXDabdg95a3wMk0SQCQzZFHGNYnsXcffTqGs/y+5w\nQWxyOGSNAkEAzHFkDJla30NiiKvhu7dY+0+dGrfMA7pNUh+LGdXe5QFdjwwxqPbF\n7NMGXKMdB8agSCxGZC3bxdvYNF9LULzhEwJABpDYNSoQx+UMvaEN5XTpLmCHuS1r\nsmhfKZPcDx8Z7mAYda3wZEuHQq+cf6i5XhOO9P5QKpKeslHLAMHa7NaNgQJBAI03\nGGacYLwui32fbzb8BYRg82Kga/OW6btY+O6hNs6iSR2gBlQ9j3Tgrzo+N4R/NQSl\nc05wGO2RnBUwlu0XUckCQHfHsWHVrrADTpalbv+FTDyWd0ouHXBmDecVZh3e7/ue\ncdMoblzeasvgp8CjFa9U+uDozY+aL6TNIpG++nn4lNw=\n-----END RSA PRIVATE KEY-----\n","ksk_keytag":37440,"ksk_alg":8,"zsk":"-----BEGIN RSA PRIVATE KEY-----\nMIIBOgIBAAJBAK8YnU+YqBxD/EDwVeHZsJillAJ80PCnLU+/rlGrlzgw+eabF8jT\nCaEwnpE74YHCLegKAAn+efeZrT/EBBrzlacCAgIBAkBh9VGFW2SJk1I9SBQaDIA9\nchdrrx+PHibSyozwT4eAPmd6OFoLausc7ls6v9evPeb+Yj3g0JXvTGp6BgNhFqLR\nAiEA1+ievAEBVM6IlOmpiTwlaWe/HV6MokBBq1G/tvJS0M8CIQDPm/DUsoTEv/Jj\n6O3U9hNcPLbvKMMGld2wbf7nrQmzqQIhAJrhwTaFdjnXhmfUB9a33vRIbSaIsLxA\nDyuM+03XP+YhAiEAmJIJz7WX9uPkCIy8wO655Hh4dt4UkBFRE98OqkHIwGkCIFFv\nN8rJojI+oEiJyNjEjWZD4qoUMUp3+YBl0htAJUE2\n-----END RSA PRIVATE KEY-----\n","zsk_keytag":49016,"zsk_alg":8,"inception":"2016-11-14T11:36:58.851612Z","until":"2017-02-12T11:36:58.849384Z"}]
-    },    
+        "keys": [
+            {
+                "ksk": "-----BEGIN RSA PRIVATE KEY-----\nMIICXAIBAAKBgQCn9Iv82vkFiv8ts8K9jzUzfp3UEZx+76r+X9A4GOFfYbx3USCh\nEW0fLYT/QkAM8/SiTkEXzZPqhrV083mp5VLYNLxic2ii6DrwvyGpENVPJnDQMu+C\nfKMyb9IWcm9MkeHh8t/ovsCQAEJWIPTnzv8rlQcDU44c3qgTpHSU8htjdwICBAEC\ngYEAlpYTHWYrcd0HQXO3F9lPqwwfHUt7VBaSEUYrk3N3ZYCWvmV1qyKbB/kb1SBs\n4GfW1vP966HXCffnX92LDXYxi7It3TJaKmo8aF/leN7w8WLNJXUayEoQKUfKLprj\nN14Jx/tgMu7I/BOoHId8b7e57pBKtDiSF6WWn3K7tNPbfmkCQQDST41m62mC4MAa\nDsUdyM0Vg/tjduGqnygryCDEXDabdg95a3wMk0SQCQzZFHGNYnsXcffTqGs/y+5w\nQWxyOGSNAkEAzHFkDJla30NiiKvhu7dY+0+dGrfMA7pNUh+LGdXe5QFdjwwxqPbF\n7NMGXKMdB8agSCxGZC3bxdvYNF9LULzhEwJABpDYNSoQx+UMvaEN5XTpLmCHuS1r\nsmhfKZPcDx8Z7mAYda3wZEuHQq+cf6i5XhOO9P5QKpKeslHLAMHa7NaNgQJBAI03\nGGacYLwui32fbzb8BYRg82Kga/OW6btY+O6hNs6iSR2gBlQ9j3Tgrzo+N4R/NQSl\nc05wGO2RnBUwlu0XUckCQHfHsWHVrrADTpalbv+FTDyWd0ouHXBmDecVZh3e7/ue\ncdMoblzeasvgp8CjFa9U+uDozY+aL6TNIpG++nn4lNw=\n-----END RSA PRIVATE KEY-----\n",
+                "ksk_keytag": 37440,
+                "ksk_alg": 8,
+                "zsk": "-----BEGIN RSA PRIVATE KEY-----\nMIIBOgIBAAJBAK8YnU+YqBxD/EDwVeHZsJillAJ80PCnLU+/rlGrlzgw+eabF8jT\nCaEwnpE74YHCLegKAAn+efeZrT/EBBrzlacCAgIBAkBh9VGFW2SJk1I9SBQaDIA9\nchdrrx+PHibSyozwT4eAPmd6OFoLausc7ls6v9evPeb+Yj3g0JXvTGp6BgNhFqLR\nAiEA1+ievAEBVM6IlOmpiTwlaWe/HV6MokBBq1G/tvJS0M8CIQDPm/DUsoTEv/Jj\n6O3U9hNcPLbvKMMGld2wbf7nrQmzqQIhAJrhwTaFdjnXhmfUB9a33vRIbSaIsLxA\nDyuM+03XP+YhAiEAmJIJz7WX9uPkCIy8wO655Hh4dt4UkBFRE98OqkHIwGkCIFFv\nN8rJojI+oEiJyNjEjWZD4qoUMUp3+YBl0htAJUE2\n-----END RSA PRIVATE KEY-----\n",
+                "zsk_keytag": 49016,
+                "zsk_alg": 8,
+                "inception": "2016-11-14T11:36:58.851612Z",
+                "until": "2017-02-12T11:36:58.849384Z"
+            }
+        ]
+    },
 
     {
         "name": "minimal.com",
@@ -3505,34 +3543,45 @@
                 }
             }
         ],
-        "keys":[{"ksk":"-----BEGIN RSA PRIVATE KEY-----\nMIICXAIBAAKBgQCn9Iv82vkFiv8ts8K9jzUzfp3UEZx+76r+X9A4GOFfYbx3USCh\nEW0fLYT/QkAM8/SiTkEXzZPqhrV083mp5VLYNLxic2ii6DrwvyGpENVPJnDQMu+C\nfKMyb9IWcm9MkeHh8t/ovsCQAEJWIPTnzv8rlQcDU44c3qgTpHSU8htjdwICBAEC\ngYEAlpYTHWYrcd0HQXO3F9lPqwwfHUt7VBaSEUYrk3N3ZYCWvmV1qyKbB/kb1SBs\n4GfW1vP966HXCffnX92LDXYxi7It3TJaKmo8aF/leN7w8WLNJXUayEoQKUfKLprj\nN14Jx/tgMu7I/BOoHId8b7e57pBKtDiSF6WWn3K7tNPbfmkCQQDST41m62mC4MAa\nDsUdyM0Vg/tjduGqnygryCDEXDabdg95a3wMk0SQCQzZFHGNYnsXcffTqGs/y+5w\nQWxyOGSNAkEAzHFkDJla30NiiKvhu7dY+0+dGrfMA7pNUh+LGdXe5QFdjwwxqPbF\n7NMGXKMdB8agSCxGZC3bxdvYNF9LULzhEwJABpDYNSoQx+UMvaEN5XTpLmCHuS1r\nsmhfKZPcDx8Z7mAYda3wZEuHQq+cf6i5XhOO9P5QKpKeslHLAMHa7NaNgQJBAI03\nGGacYLwui32fbzb8BYRg82Kga/OW6btY+O6hNs6iSR2gBlQ9j3Tgrzo+N4R/NQSl\nc05wGO2RnBUwlu0XUckCQHfHsWHVrrADTpalbv+FTDyWd0ouHXBmDecVZh3e7/ue\ncdMoblzeasvgp8CjFa9U+uDozY+aL6TNIpG++nn4lNw=\n-----END RSA PRIVATE KEY-----\n","ksk_keytag":37440,"ksk_alg":8,"zsk":"-----BEGIN RSA PRIVATE KEY-----\nMIIBOgIBAAJBAK8YnU+YqBxD/EDwVeHZsJillAJ80PCnLU+/rlGrlzgw+eabF8jT\nCaEwnpE74YHCLegKAAn+efeZrT/EBBrzlacCAgIBAkBh9VGFW2SJk1I9SBQaDIA9\nchdrrx+PHibSyozwT4eAPmd6OFoLausc7ls6v9evPeb+Yj3g0JXvTGp6BgNhFqLR\nAiEA1+ievAEBVM6IlOmpiTwlaWe/HV6MokBBq1G/tvJS0M8CIQDPm/DUsoTEv/Jj\n6O3U9hNcPLbvKMMGld2wbf7nrQmzqQIhAJrhwTaFdjnXhmfUB9a33vRIbSaIsLxA\nDyuM+03XP+YhAiEAmJIJz7WX9uPkCIy8wO655Hh4dt4UkBFRE98OqkHIwGkCIFFv\nN8rJojI+oEiJyNjEjWZD4qoUMUp3+YBl0htAJUE2\n-----END RSA PRIVATE KEY-----\n","zsk_keytag":49016,"zsk_alg":8,"inception":"2016-11-14T11:36:58.851612Z","until":"2017-02-12T11:36:58.849384Z"}]
+        "keys": [
+            {
+                "ksk": "-----BEGIN RSA PRIVATE KEY-----\nMIICXAIBAAKBgQCn9Iv82vkFiv8ts8K9jzUzfp3UEZx+76r+X9A4GOFfYbx3USCh\nEW0fLYT/QkAM8/SiTkEXzZPqhrV083mp5VLYNLxic2ii6DrwvyGpENVPJnDQMu+C\nfKMyb9IWcm9MkeHh8t/ovsCQAEJWIPTnzv8rlQcDU44c3qgTpHSU8htjdwICBAEC\ngYEAlpYTHWYrcd0HQXO3F9lPqwwfHUt7VBaSEUYrk3N3ZYCWvmV1qyKbB/kb1SBs\n4GfW1vP966HXCffnX92LDXYxi7It3TJaKmo8aF/leN7w8WLNJXUayEoQKUfKLprj\nN14Jx/tgMu7I/BOoHId8b7e57pBKtDiSF6WWn3K7tNPbfmkCQQDST41m62mC4MAa\nDsUdyM0Vg/tjduGqnygryCDEXDabdg95a3wMk0SQCQzZFHGNYnsXcffTqGs/y+5w\nQWxyOGSNAkEAzHFkDJla30NiiKvhu7dY+0+dGrfMA7pNUh+LGdXe5QFdjwwxqPbF\n7NMGXKMdB8agSCxGZC3bxdvYNF9LULzhEwJABpDYNSoQx+UMvaEN5XTpLmCHuS1r\nsmhfKZPcDx8Z7mAYda3wZEuHQq+cf6i5XhOO9P5QKpKeslHLAMHa7NaNgQJBAI03\nGGacYLwui32fbzb8BYRg82Kga/OW6btY+O6hNs6iSR2gBlQ9j3Tgrzo+N4R/NQSl\nc05wGO2RnBUwlu0XUckCQHfHsWHVrrADTpalbv+FTDyWd0ouHXBmDecVZh3e7/ue\ncdMoblzeasvgp8CjFa9U+uDozY+aL6TNIpG++nn4lNw=\n-----END RSA PRIVATE KEY-----\n",
+                "ksk_keytag": 37440,
+                "ksk_alg": 8,
+                "zsk": "-----BEGIN RSA PRIVATE KEY-----\nMIIBOgIBAAJBAK8YnU+YqBxD/EDwVeHZsJillAJ80PCnLU+/rlGrlzgw+eabF8jT\nCaEwnpE74YHCLegKAAn+efeZrT/EBBrzlacCAgIBAkBh9VGFW2SJk1I9SBQaDIA9\nchdrrx+PHibSyozwT4eAPmd6OFoLausc7ls6v9evPeb+Yj3g0JXvTGp6BgNhFqLR\nAiEA1+ievAEBVM6IlOmpiTwlaWe/HV6MokBBq1G/tvJS0M8CIQDPm/DUsoTEv/Jj\n6O3U9hNcPLbvKMMGld2wbf7nrQmzqQIhAJrhwTaFdjnXhmfUB9a33vRIbSaIsLxA\nDyuM+03XP+YhAiEAmJIJz7WX9uPkCIy8wO655Hh4dt4UkBFRE98OqkHIwGkCIFFv\nN8rJojI+oEiJyNjEjWZD4qoUMUp3+YBl0htAJUE2\n-----END RSA PRIVATE KEY-----\n",
+                "zsk_keytag": 49016,
+                "zsk_alg": 8,
+                "inception": "2016-11-14T11:36:58.851612Z",
+                "until": "2017-02-12T11:36:58.849384Z"
+            }
+        ]
     },
 
     {
-      "name": "example",
-      "records": [
-        {
-          "name": "example",
-          "type": "SOA",
-          "data": {
-            "mname": "ns.example",
-            "rname": "postmaster.example",
-            "serial": 2015051220,
-            "refresh": 28800,
-            "retry": 7200,
-            "expire": 604800,
-            "minimum": 86400
-          },
-          "ttl": 120
-        },
-        {
-          "name": "example",
-          "type": "NS",
-          "ttl": 120,
-          "data": {
-            "dname": "ns.example"
-          }
-        }
-      ]
+        "name": "example",
+        "records": [
+            {
+                "name": "example",
+                "type": "SOA",
+                "data": {
+                    "mname": "ns.example",
+                    "rname": "postmaster.example",
+                    "serial": 2015051220,
+                    "refresh": 28800,
+                    "retry": 7200,
+                    "expire": 604800,
+                    "minimum": 86400
+                },
+                "ttl": 120
+            },
+            {
+                "name": "example",
+                "type": "NS",
+                "ttl": 120,
+                "data": {
+                    "dname": "ns.example"
+                }
+            }
+        ]
     }
 ]

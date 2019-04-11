@@ -31,7 +31,6 @@
          find_zone/1,
          find_zone/2,
          get_zone/1,
-         get_zone_with_records/1,
          get_authority/1,
          get_delegations/1,
          get_records_by_name/1,
@@ -107,21 +106,12 @@ get_zone(Name) ->
     _ -> {error, zone_not_found}
   end.
 
-%% @doc Get a zone for the specific name, including the records for the zone.
--spec get_zone_with_records(dns:dname()) -> {ok, #zone{}} | {error, zone_not_found}.
-get_zone_with_records(Name) ->
-  NormalizedName = erldns:normalize_name(Name),
-  case erldns_storage:select(zones, NormalizedName) of
-    [{NormalizedName, Zone}] -> {ok, Zone};
-    _ -> {error, zone_not_found}
-  end.
-
 %% @doc Find the SOA record for the given DNS question.
 -spec get_authority(dns:message() | dns:dname()) -> {error, no_question} | {error, authority_not_found} | {ok, dns:authority()}.
 get_authority(Message) when is_record(Message, dns_message) ->
   case Message#dns_message.questions of
     [] -> {error, no_question};
-    Questions -> 
+    Questions ->
       Question = lists:last(Questions),
       get_authority(Question#dns_query.name)
   end;
@@ -272,33 +262,8 @@ build_named_index(Records) ->
   maps:map(fun (_K, V) -> lists:reverse(V) end, Idx0).
 
 -spec(sign_zone(erldns:zone()) -> erldns:zone()).
-sign_zone(Zone = #zone{keysets = []}) ->
-  Zone;
 sign_zone(Zone) ->
-  lager:debug("Signing zone (name: ~p)", [Zone#zone.name]),
-  DnskeyRRs = lists:filter(erldns_records:match_type(?DNS_TYPE_DNSKEY), Zone#zone.records),
-  KeyRRSigRecords = lists:flatten(lists:map(erldns_dnssec:key_rrset_signer(Zone#zone.name, DnskeyRRs), Zone#zone.keysets)),
-
-  verify_zone(Zone, DnskeyRRs, KeyRRSigRecords),
-
-  % TODO: remove wildcard signatures as they will not be used but are taking up space
-  ZoneRRSigRecords = lists:flatten(lists:map(erldns_dnssec:zone_rrset_signer(Zone#zone.name, lists:filter(fun(RR) -> (RR#dns_rr.type =/= ?DNS_TYPE_DNSKEY) end, Zone#zone.records)), Zone#zone.keysets)),
-  build_zone(Zone#zone.name, Zone#zone.version, Zone#zone.records ++ KeyRRSigRecords ++ rewrite_soa_rrsig_ttl(Zone#zone.records, ZoneRRSigRecords -- lists:filter(erldns_records:match_wildcard(), ZoneRRSigRecords)), Zone#zone.keysets).
-
--spec(verify_zone(erldns:zone(), [dns:rr()], [dns:rr()]) -> boolean()).
-verify_zone(Zone, DnskeyRRs, KeyRRSigRecords) ->
-  lager:debug("Verify zone (name: ~p)", [Zone#zone.name]),
-  case lists:filter(fun(RR) -> RR#dns_rr.data#dns_rrdata_dnskey.flags =:= 257 end, DnskeyRRs) of
-    [] -> false;
-    KSKs -> 
-      lager:debug("KSKs: ~p", [KSKs]),
-      KSKDnskey = lists:last(KSKs),
-      RRSig = lists:last(KeyRRSigRecords),
-      lager:debug("Attempting to verify RRSIG (key: ~p)", [KSKDnskey]),
-      VerifyResult = dnssec:verify_rrsig(RRSig, DnskeyRRs, [KSKDnskey], []),
-      lager:debug("KSK verification (verified?: ~p)", [VerifyResult]),
-      VerifyResult
-  end.
+  Zone.
 
 rewrite_soa_rrsig_ttl(ZoneRecords, RRSigRecords) ->
   SoaRR = lists:last(lists:filter(erldns_records:match_type(?DNS_TYPE_SOA), ZoneRecords)),

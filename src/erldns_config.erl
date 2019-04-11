@@ -88,33 +88,6 @@ get_servers() ->
     _ -> []
   end.
 
--ifdef(TEST).
-get_servers_undefined_test() ->
-  ?assertEqual([], get_servers()).
-
-get_servers_empty_list_test() ->
-  application:set_env(erldns, servers, []),
-  ?assertEqual([], get_servers()).
-
-
-get_servers_single_server_test() ->
-  application:set_env(erldns, servers, [[{name, example}, {address, "127.0.0.1"}, {port, 8053}, {family, inet}]]),
-  ?assertEqual([
-                [{name, example}, {address, {127,0,0,1}}, {port, 8053}, {family, inet}, {processes, 1}]
-               ], get_servers()).
-
-get_servers_multiple_servers_test() ->
-  application:set_env(erldns, servers, [
-                                        [{name, example_inet}, {address, "127.0.0.1"}, {port, 8053}, {family, inet}],
-                                        [{name, example_inet6}, {address, "::1"}, {port, 8053}, {family, inet6}]
-                                       ]),
-  ?assertEqual([
-                [{name, example_inet}, {address, {127,0,0,1}}, {port, 8053}, {family, inet}, {processes, 1}],
-                [{name, example_inet6}, {address, {0,0,0,0,0,0,0,1}}, {port, 8053}, {family, inet6}, {processes, 1}]
-               ], get_servers()).
-
--endif.
-
 %% @doc Get the IP address (either IPv4 or IPv6) that the DNS server
 %% should listen on.
 %%

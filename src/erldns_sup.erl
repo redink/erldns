@@ -20,12 +20,6 @@
 % API
 -export([start_link/0]).
 
--export([
-         gc/0,
-         gc_registered/0,
-         gc_registered/1
-        ]).
-
 % Supervisor hooks
 -export([init/1]).
 
@@ -39,48 +33,13 @@
 start_link() ->
   supervisor:start_link({local, ?SUPERVISOR}, ?MODULE, []).
 
-%% @doc Garbage collect all processes.
--spec gc() -> integer().
-gc() ->
-  length(
-    lists:map(
-      fun(Pid) ->
-          garbage_collect(Pid)
-      end,
-      processes())
-   ).
-
-%% @doc Garbage collect all registered processes.
--spec gc_registered() -> integer().
-gc_registered() ->
-  length(
-    lists:map(
-      fun(ProcessName) ->
-          gc_registered(ProcessName)
-      end,
-      registered())
-   ).
-
-%% @doc Garbage collect a named process.
--spec gc_registered(atom()) -> ok.
-gc_registered(ProcessName) ->
-  Pid = whereis(ProcessName),
-  garbage_collect(Pid),
-  ok.
-
 
 %% Callbacks
 init(_Args) ->
   SysProcs = [
               ?CHILD(erldns_events, worker, []),
               ?CHILD(erldns_zone_cache, worker, []),
-              ?CHILD(erldns_zone_parser, worker, []),
-              ?CHILD(erldns_zone_encoder, worker, []),
-              ?CHILD(erldns_packet_cache, worker, []),
-              ?CHILD(erldns_query_throttle, worker, []),
-              ?CHILD(erldns_handler, worker, []),
-
-              ?CHILD(sample_custom_handler, worker, [])
+              ?CHILD(erldns_packet_cache, worker, [])
              ],
 
   {ok, {{one_for_one, 20, 10}, SysProcs}}.

@@ -17,9 +17,6 @@
 
 -include("erldns.hrl").
 -include_lib("dns/include/dns.hrl").
--ifdef(TEST).
--include_lib("eunit/include/eunit.hrl").
--endif.
 
 -export([optionally_convert_wildcard/2, wildcard_qname/1]).
 -export([default_ttl/1, default_priority/1, name_type/1]).

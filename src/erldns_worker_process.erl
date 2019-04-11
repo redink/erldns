@@ -46,19 +46,6 @@ start_link(Args) ->
 init(_Args) ->
   {ok, #state{}}.
 
-% Process a TCP request. Does not truncate the response.
-handle_call({process, DecodedMessage, Socket, {tcp, Address}}, _From, State) ->
-  % Uncomment this and the function implementation to simulate a timeout when
-  % querying www.example.com with the test zones
-  % simulate_timeout(DecodedMessage),  
-  
-  erldns_events:notify({start_handle, tcp, [{host, Address}]}),
-  Response = erldns_handler:handle(DecodedMessage, {tcp, Address}),
-  erldns_events:notify({end_handle, tcp, [{host, Address}]}),
-  EncodedMessage = erldns_encoder:encode_message(Response),
-  send_tcp_message(Socket, EncodedMessage),
-  {reply, ok, State}; 
-
 % Process a UDP request. May truncate the response.
 handle_call({process, DecodedMessage, Socket, Port, {udp, Host}}, _From, State) ->
   % Uncomment this and the function implementation to simulate a timeout when
@@ -90,14 +77,6 @@ terminate(_Reason, _State) ->
 code_change(_OldVsn, State, _Extra) ->
   {ok, State}.
 
-
-%% Internal private functions
-
-send_tcp_message(Socket, EncodedMessage) ->
-  BinLength = byte_size(EncodedMessage),
-  TcpEncodedMessage = <<BinLength:16, EncodedMessage/binary>>,
-  gen_tcp:send(Socket, TcpEncodedMessage).
-
 %% Determine the max payload size by looking for additional
 %% options passed by the client.
 max_payload_size(Message) ->
@@ -109,14 +88,3 @@ max_payload_size(Message) ->
       end;
     _ -> ?MAX_PACKET_SIZE
   end.
-
-%simulate_timeout(DecodedMessage) ->
-  %[Question] = DecodedMessage#dns_message.questions,
-  %Name = Question#dns_query.name,
-  %lager:info("qname: ~p", [Name]),
-  %case Name of
-    %<<"www.example.com">> ->
-      %timer:sleep(3000);
-    %_ ->
-      %ok
-  %end.
